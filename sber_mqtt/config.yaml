@@ -1,5 +1,5 @@
 name: "Apex MQTT SberGate"
-version: "1.2.0"
+version: "3.15"
 description: "Apex MQTT SberGate SberDevice IoT Agent for Home Assistant"
 url: https://github.com/apexmi/test_sber_mqtt/tree/main/sber_mqtt
 webui: http://[HOST]:[PORT:9123]
@@ -37,4 +37,4 @@ schema:
   sber-mqtt_login: str
   sber-mqtt_password: password
   sber-http_api_endpoint: str?
-image: "ghcr.io/home-assistant/{arch}-base:3.15"
+image: "ghcr.io/home-assistant/{arch}-base"
