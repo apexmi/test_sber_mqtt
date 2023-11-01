@@ -37,4 +37,6 @@ schema:
   sber-mqtt_login: str
   sber-mqtt_password: password
   sber-http_api_endpoint: str?
-image: "ghcr.io/home-assistant/{arch}-base"
+hassio_api: true
+homeassistant_api: true
+host_network: true
