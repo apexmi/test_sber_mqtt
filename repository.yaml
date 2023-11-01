@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Apex Example Home Assistant add-on sber
+url: 'https://github.com/apexmi/test_sber_mqtt'
+maintainer: Awesome Maintainer <awesome@example.com>
