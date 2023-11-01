@@ -1,5 +1,5 @@
 name: "Apex MQTT SberGate"
-version: "3.15"
+version: "1.2.5"
 description: "Apex MQTT SberGate SberDevice IoT Agent for Home Assistant"
 url: https://github.com/apexmi/test_sber_mqtt/tree/main/sber_mqtt
 webui: http://[HOST]:[PORT:9123]
