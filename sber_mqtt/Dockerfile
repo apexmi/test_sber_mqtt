@@ -5,13 +5,7 @@ ARG BUILD_VERSION
 FROM $BUILD_FROM
 
 # Install requirements for add-on
-RUN \
-  apk add --no-cache \
-    py3-pip \
-    python3 \
- && pip3 install \
-    requests \
-    websocket-client
+RUN  apk add --no-cache py3-pip python3 && pip3 install requests websocket-client
 
 # Python 3 HTTP Server serves the current working dir
 # So let's set it to our add-on persistent data directory.
